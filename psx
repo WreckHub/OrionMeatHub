@@ -3,10 +3,14 @@ local Window = Library.CreateLib("Project Orion", "DarkTheme")
 
 ----[MAIN CONFIG]----
 local Main = Window:NewTab("Main")
-local Main = Window:NewTab("Credits")
 local MainSection = Main:NewSection("Main")
-local MainSection = Main:NewSection("orionmeat154")
 
+local Tab = Window:NewTab("Credits")
+local Section = Tab:NewSection("orionmeat154")
+
+local Tab = Window:NewTab("Scripts Hub")
+local Section = Tab:NewSection("PSX Scripts")
+local Section = Tab:NewSection("Adding Soon")
 
 MainSection:NewButton("Trade Scam", "Click to On/Off", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/milkupPSX/main/rafapsx"))()
@@ -15,5 +19,4 @@ end)
 MainSection:NewButton("Dupe Pets", "Click to duplicate", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/milkupPSX/main/rafapsx"))()
 end)
-
 
