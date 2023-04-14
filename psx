@@ -1,16 +1,35 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Project Orion", "DarkTheme")
+local Window = Library.CreateLib("Project Orion", "Sentinel")
 
 ----[MAIN CONFIG]----
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
 local Tab = Window:NewTab("Credits")
-local Section = Tab:NewSection("orionmeat154")
+local Section = Tab:NewSection("Script Maked by orionmeat154")
 
 local Tab = Window:NewTab("Scripts Hub")
-local Section = Tab:NewSection("PSX Scripts")
-local Section = Tab:NewSection("Adding Soon")
+local SecondSection = Tab:NewSection("PSX Scripts")
+
+SecondSection:NewButton("Pet Changer","Visual Not FE", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/OrionMeatHub/main/psx"))()
+end)
+
+SecondSection:NewButton("Catalyst Hub","Need key", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/OrionMeatHub/main/psx"))()
+end)
+
+SecondSection:NewButton("Cloud Hub","Need key", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/OrionMeatHub/main/psx"))()
+end)
+
+SecondSection:NewButton("MilkUp","Keyless", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/OrionMeatHub/main/psx"))()
+end)
+
+SecondSection:NewButton("Project WD","Need key", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/OrionMeatHub/main/psx"))()
+end)
 
 MainSection:NewButton("Trade Scam", "Click to On/Off", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/milkupPSX/main/rafapsx"))()
@@ -19,4 +38,3 @@ end)
 MainSection:NewButton("Dupe Pets", "Click to duplicate", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/milkupPSX/main/rafapsx"))()
 end)
-
