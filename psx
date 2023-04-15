@@ -12,23 +12,23 @@ local Tab = Window:NewTab("Scripts Hub")
 local SecondSection = Tab:NewSection("PSX Scripts")
 
 SecondSection:NewButton("Pet Changer","Visual Not FE", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/OrionMeatHub/main/psx"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/milkupPSX/main/rafapsx"))()
 end)
 
 SecondSection:NewButton("Catalyst Hub","Need key", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/OrionMeatHub/main/psx"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/milkupPSX/main/rafapsx"))()
 end)
 
 SecondSection:NewButton("Cloud Hub","Need key", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/OrionMeatHub/main/psx"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/milkupPSX/main/rafapsx"))()
 end)
 
 SecondSection:NewButton("MilkUp","Keyless", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/OrionMeatHub/main/psx"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/milkupPSX/main/rafapsx"))()
 end)
 
 SecondSection:NewButton("Project WD","Need key", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/OrionMeatHub/main/psx"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WreckHub/milkupPSX/main/rafapsx"))()
 end)
 
 MainSection:NewButton("Trade Scam", "Click to On/Off", function()
